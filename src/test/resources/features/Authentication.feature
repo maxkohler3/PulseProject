@@ -4,5 +4,5 @@ Feature: Authentication
 
   Scenario: Happy path login
     Given I have opened the home page
-     When I put in valid username/password
+     When I put in valid username and bad password
      Then I should be redirected to my dashboard
