@@ -1,9 +1,8 @@
 
 Feature: AuthenticationFeature
-  This is the description of the auth feature
+  feature desc
 
-  Scenario: HappyPathLogin
-     Given I have opened the application
-      When I put in valid credentials
-       And click Login
-      Then I should see my personalized home page2
+  Scenario: Authentication Happy Path
+    Given I open the app
+     When I put in good credentials
+     Then I get redirected to the home screen
