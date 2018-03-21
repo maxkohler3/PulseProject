@@ -11,3 +11,9 @@ Feature: AuthenticationFeature
     Given I do something else
      When I do it
      Then I did it
+     
+  Scenario: Verify Bad password gives error
+    Given I open the login page
+     When I put in a good user name and bad password
+     Then I should get an error on submit
+
