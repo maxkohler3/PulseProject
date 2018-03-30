@@ -12,7 +12,28 @@ import org.junit.Assert;
 //Then I should see my personalized home page2
 
 public class AuthenticationSteps {
+//
+//	  Scenario: Successful Deposit
+//	    Given I am logged in
+//	     When I deposit 10 dollars
+//	     Then my account should be increased by 10 dollars
+//	     
+	
+    @Given("^I am logged in$")
+    public void iamloggedin() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
 
+    @When("^I deposit 10 dollars$")
+    public void deposit10dollars() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+    
+    @Then("^my account should be increased by 10 dollars$")
+    public void myaccountincreased() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+    
     @Given("^I have opened the application$")
     public void iopenedtheapp() throws Throwable {
         Assert.assertEquals(true, true);
