@@ -15,6 +15,6 @@ Feature: Deposit
   Scenario: Another successful deposit
     Given I am logged in
      When I deposit 30 dollars
-     Then I got 30 new dollarsHello!
+     Then I got 30 new dollarsHello! asdfasdfasdf
      
    
