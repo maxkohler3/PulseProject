@@ -7,6 +7,7 @@ Feature: Add Child to Account
      Then The child should be successfully added
      
   Scenario: Add Child Error Message - missing Name
+    Given I click Add Child on the Home Screen 
      When I fill out all fields except name
       And click save
      Then There should be an error message
