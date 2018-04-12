@@ -15,4 +15,4 @@ Feature: Add Child to Account
   Scenario: A child error message - missing birthday
     Given I click Add Child on the Home Screen
      When I fille out all the fields except birthday
-     Then I should get a no birthday error message
+     Then I should get a no birthday error messagelkj
