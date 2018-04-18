@@ -16,8 +16,3 @@ Feature: Add Child to Account
     Given I click Add Child on the Home Screen
      When I fill out all the fields except birthday
      Then I should get a no birthday error messagelkj
-
-  Scenario: A child error message - missing birthday
-    Given I click Add Child on the Home Screen
-     When I fill all but the favorite toy question
-     Then I should get a warning
