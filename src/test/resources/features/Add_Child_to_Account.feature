@@ -21,3 +21,8 @@ Scenario: A child error message - missing birthday2
     Given I click Add Child on the Home Screen
      When I fill out all the fields except birthday1
      Then I should get a no birthday error message1
+     
+Scenario: A child error message - missing birthday3
+    Given I click Add Child on the Home Screen
+     When I fill out all the fields except birthday1
+     Then I should get a no birthday error message1
