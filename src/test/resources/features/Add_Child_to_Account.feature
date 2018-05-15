@@ -26,3 +26,11 @@ Scenario: A child error message - missing birthday3
     Given I click Add Child on the Home Screen
      When I fill out all the fields except birthday1
      Then I should get a no birthday error message1
+     
+Scenario: The sum of a list of numbers should be calculated
+    Given a list of numbers
+      | 17   |
+      | 42   |
+      | 4711 |
+    When I summarize them
+    Then should I get 4770
