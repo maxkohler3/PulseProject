@@ -7,3 +7,10 @@ Scenario: The sum of a list of numbers should be calculated
       | 4711 |
     When I summarize them
     Then I should get "4770"
+    
+Scenario: The sum of a list of numbers should be calculated test
+    Given a list of numbers
+      | 20   |
+      | 30   |
+    When I summarize them
+    Then I should get "50"
