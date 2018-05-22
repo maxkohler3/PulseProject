@@ -23,7 +23,7 @@ public class MathStep {
         Assert.assertEquals(true, true);
     }
 
-    @When("^I summarize them$")
+    @When("^I add them$")
     public void sum_numbers() throws Throwable {
         Assert.assertEquals(true, true);
     }

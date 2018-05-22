@@ -5,17 +5,13 @@ Scenario: The sum of a list of numbers should be calculated
       | 17   |
       | 42   |
       | 4711 |
-    When I summarize them
+    When I add them
     Then I should get "4770"
     
 Scenario: The sum of a list of numbers should be calculated test
     Given a list of numbers
       | 20 |
       | 30 |
-    When I summarize them
+    When I add them
     Then I should get "50"
     
-Scenario: Name of the scenario
-    Given i log in
-    When i click a button
-    Then something happens
