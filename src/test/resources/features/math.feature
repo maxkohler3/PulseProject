@@ -6,4 +6,4 @@ Scenario: The sum of a list of numbers should be calculated
       | 42   |
       | 4711 |
     When I summarize them
-    Then should I get 4770
+    Then I should get "4770"

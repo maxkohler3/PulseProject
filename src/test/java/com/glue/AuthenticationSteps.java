@@ -6,18 +6,7 @@ import cucumber.api.java.en.When;
 import cucumber.api.java.en.And;
 import org.junit.Assert;
 
-//Given I have opened the application
-//When I put in valid credentials
-// And click Login
-//Then I should see my personalized home page2
-
-public class AuthenticationSteps {
-//
-//	  Scenario: Successful Deposit
-//	    Given I am logged in
-//	     When I deposit 10 dollars
-//	     Then my account should be increased by 10 dollars
-//	     
+public class AuthenticationSteps { 
 	
     @Given("^I am logged in$")
     public void iamloggedin() throws Throwable {
