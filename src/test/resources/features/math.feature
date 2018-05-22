@@ -14,3 +14,8 @@ Scenario: The sum of a list of numbers should be calculated test
       | 30 |
     When I summarize them
     Then I should get "50"
+    
+Scenario: Name of the scenario
+    Given i log in
+    When i click a button
+    Then something happens
