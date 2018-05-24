@@ -15,7 +15,6 @@ Feature: Subtraction
     When I subtract the second number from the first
     Then I should get the number "0"
     
-    
   Scenario Outline: eating
     Given there are <start> cucumbers
     When I eat <eat> cucumbers
