@@ -11,14 +11,28 @@ import java.util.List;
 public class CreateAccountStep {
 
     @When("^I have no account$")
-    public void sum_numbers() throws Throwable {
+    public void no_account() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
     @Then("^I should see the create account page$")
-    public void verify_answer() throws Throwable {
+    public void show_account_page() throws Throwable {
         Assert.assertEquals(true, true);
     }
+    
+    @Then("^And I should see a name$")
+    public void account_page_name_verification() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+    
+    @Then("^And I should see a number of kids input$")
+    public void account_page_num_kids_verification() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+    
+    
+    
+    
 //    
 //    
 //    List<List<String>> data;
