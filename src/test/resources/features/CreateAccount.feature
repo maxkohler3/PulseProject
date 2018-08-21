@@ -13,7 +13,7 @@ Feature: CreateAccount
      When I fill in <name> and <numkids> correctly
      Then I should be redirected to the dashboard
      
-    Examples: 
+    Examples:
         | name      | numkids   |
         | Mommy     |  1        | 
         | Daddy     |  5        | 
