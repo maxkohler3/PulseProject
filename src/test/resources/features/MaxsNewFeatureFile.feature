@@ -16,4 +16,4 @@ Feature: MaxsNewFeatureFile
   Scenario: New Scenario
     Given I have a Scenario
      When I create something
-      Then I should see a name
+      Then I should see magic
