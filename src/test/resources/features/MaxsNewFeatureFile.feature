@@ -12,3 +12,8 @@ Feature: MaxsNewFeatureFile
      When I log in
       Then I should see my name
        And I am winning
+       
+  Scenario: New Scenario
+    Given I have a Scenario
+     When I create something
+      Then I should see a name
