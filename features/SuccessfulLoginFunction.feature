@@ -2,7 +2,7 @@ Feature: SuccessfulLoginFunction
   Given: I am on the sign in page- FINGERS CROSSED!!!
   When: I click login
   Then: I should see "Welcome Max"
-  And: We'll see if this works!!!
+  And: We'll see if this works!!!!!
 
   Scenario: Tricentis Search Function
     Given: the web browser is at the Google home page
