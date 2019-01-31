@@ -7,4 +7,4 @@ Feature: Tricentis Search Function
 Scenario: QASymphony Search 
     Given: the web browser opens
     When: the user types QASymphony
-    Then: results for "Tricentis" appear!
+    Then: results for "Tricentis" appear
