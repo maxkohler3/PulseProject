@@ -1,4 +1,4 @@
-Feature: SuccessfulLoginFunction
+Feature: SuccessfulLoginFunction1
   
 Scenario: This works
   Given: I am on the sign in page
