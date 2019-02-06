@@ -1,4 +1,6 @@
 Feature: Tricentis Search Function
+  
+  Scenario: Tricentis search results
     Given: the web browser is at the Google home page
     When: the user searches for "Tricentis"
     Then: the results page includes results for "Tricentis"
