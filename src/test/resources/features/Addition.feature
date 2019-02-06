@@ -1,7 +1,7 @@
 Feature: Addition
   In this feature, we will verify that we can add one number to another number
 
-  Scenario: Base Case add
+  Scenario: Base Case add TEST
     Given I have two numbers
       | 10 |
       | 3  |
