@@ -1,5 +1,5 @@
 Feature: Addition
-  In this feature, we will verify that we can subtract one number from another number
+  In this feature, we will verify that we can add one number to another number
 
   Scenario: Base Case
     Given I have two numbers
