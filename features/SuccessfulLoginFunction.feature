@@ -1,4 +1,6 @@
 Feature: SuccessfulLoginFunction
+  
+Scenario: This works
   Given: I am on the sign in page
   When: I click login
   Then: I should see "Welcome Max"
