@@ -2,7 +2,7 @@ Feature: Addition
   In this feature, we will verify that we can add one number to another number
 
   Scenario: Add Test - Base Case
-    Given I have two numbers 
+    Given I have two numbers Hiscox Demo!!!
       | 10 |
       | 3  |
     When I add the second number to the first
