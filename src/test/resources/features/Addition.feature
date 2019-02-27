@@ -14,3 +14,6 @@ Feature: Addition
       | 10  |
     When I add the second number to the first
     Then I should get the number "20"
+    
+    Scenario: C=Scenario for AIG
+        Given: I have an app
