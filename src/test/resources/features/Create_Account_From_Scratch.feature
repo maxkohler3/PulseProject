@@ -9,7 +9,7 @@ Feature: Create_Account_From_Scratch
       And I should see a number of kids input
      
   Scenario Outline: Create_Account_Page
-    Given I am on the create account page
+    Given I am on the create account page!
      When I fill in <name> and <numkids> correctly
      Then I should be redirected to the dashboard
      
