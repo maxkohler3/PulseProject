@@ -3,7 +3,7 @@ Feature: Create_Account_From_Scratch
 
   Scenario: Create_Account_Landing_Page
     Given I open the app
-     When I have no account
+     When I have no account AML
      Then I should see the create account page
       And I should see a name
       And I should see a number of kids input
