@@ -5,7 +5,7 @@ Feature: Addition
     Given I have two numbers
       | 10 |
       | 3  |
-    When I add the second number to the first
+    When I add the second number to the first.
     Then I should get the number "13"
 
   Scenario: Addition - Edge Case
